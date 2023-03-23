@@ -30,14 +30,15 @@ while count < math.log(upper - lower + 1, 2) :
         print ("Congratulations you did it in ",
                count, " try ")
         # Once guessed, loop will break
-        elif x > guess:
+
+    elif x > guess:
             print ("You guessed too low!")
-            elif x < guess:
-                print (you guessed too high!")
+    elif x < guess:
+            print ("you guessed too high!")
 
                        #If guessing is more than required guesses,
                        # shows this output.
-                       if count >= math.log(upper - lower +1, 2):
+    if count >= math.log(upper - lower +1, 2):
                        print ("nThe number is %d" % x)
                        print ("/tBetter luck next time!")
                        
